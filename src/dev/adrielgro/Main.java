@@ -2,6 +2,7 @@ package dev.adrielgro;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +32,8 @@ public class Main {
             System.out.println("Archivo ips.txt no encontrado!");
             System.exit(0);
         }
+
+        Collections.shuffle(ips); // Desordenamos la lista de direcciones IP al azar
 
         /* Creamos un hilo de la clase VideoThread por cada IP */
         for(int i = 0; i < ips.size(); i++) {
