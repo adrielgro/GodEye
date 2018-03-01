@@ -1,0 +1,18 @@
+GodEye
+
+-Al abrir el código fuente, si faltan paquetes es necesario importar las librerías que se encuentran en la carpeta "libs".
+
+-Para ejecutar el código directamente en Java, es necesario un archivo ips.txt al lado del ejecutable.
+
+-Puedes establecer un numero de limite de camaras manualmente en los argumentos de Java.
+
+-Para ejecutar el archivo en python de GodEye.py es necesario tener 2 archivos minimo: GodEye.py y GodEye.jar (pero es necesario correrlo con el argumento --search (ej: ./GodEye.py --limit 10 --search) para crear el nuevo archivo ips.txt.
+
+-Para ejecutar GodEye sin necesidad de realizar una busqueda de nuevas direcciones IP, es necesario tener los tres archivos: GodEye.py, GodEye.jar y ips.txt.
+
+
+Resumen: Poner en el mismo lugar el archivo GodEye.py y GodEye.jar, despues correr el comando: 
+
+./GodEye.py --limit 10 --search 
+
+El comando realizará una busqueda de nuevas direcciones IP y creará el archivo ips.txt si no existe, despues se mostraran las camaras con un limite de 10 ventanas maximo.
