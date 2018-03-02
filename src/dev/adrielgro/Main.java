@@ -12,10 +12,9 @@ public class Main {
         int limitCams = 0; // Limite de camaras/ventanas a mostrar al usuario
 
         // Lectura de argumentos
-        if(args.length == 1) { // Limite de Camaras
+        if(args.length == 1) // Limite de Camaras
             if(args[0] != null && !args[0].isEmpty())
                 limitCams = Integer.parseInt(args[0]);
-        }
 
         // Lectura del archivo de las direcciones IP y las metemos al arreglo
         try {

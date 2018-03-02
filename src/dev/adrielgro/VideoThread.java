@@ -79,7 +79,8 @@ class VideoThread implements Runnable {
                     if(errPacket != null) // Si salimos del ciclo anterior con errores, entonces..
                         break; //Salimos del ciclo while
 
-                    System.out.println("Conectado a: " + mediaReader.getUrl());
+                    //System.out.println("Conectado a: " + mediaReader.getUrl());
+                    System.out.println("Conectado a: " + ip + " - Camara: " + cam);
 
                     while(mScreen.isVisible() && mediaReader.isOpen()) {
                         //System.out.println("Leyendo paquetes: " + mediaReader.getUrl());
@@ -92,13 +93,13 @@ class VideoThread implements Runnable {
                                     break; // Salimos del while
                                 }
                             } catch(Exception e) {
-                                System.out.println("Desconectado de: " + mediaReader.getUrl());
+                                //System.out.println("Desconectado de: " + mediaReader.getUrl());
                                 break; // Salimos del while
                             }
                         }
                     }
                 } catch(Exception e) {
-                    System.out.println("Error al conectarse a: " + mediaReader.getUrl());
+                    //System.out.println("Error al conectarse a: " + mediaReader.getUrl());
                     errPacket = IError.make(-1); // Le indicamos a la variable que ha ocurrido un error
                 }
                 mediaReader.close(); // Terminamos con cualquier lectura de paquetes
