@@ -50,7 +50,7 @@ class VideoThread implements Runnable {
                 String url = "rtsp://"+DAHUA_ACCOUNTS[i][0]+":"+DAHUA_ACCOUNTS[i][1]+"@"+ip+":"+RTSP_PORT+"/cam/realmonitor?channel="+cam+"&subtype=0";
                 IMediaReader mediaReader = ToolFactory.makeReader(url); // Leemos la direccion
                 mediaReader.setBufferedImageTypeToGenerate(BufferedImage.TYPE_3BYTE_BGR); // El Buffer de la imagen genrara una imagen en RGB
-                mediaReader.setQueryMetaData(true);
+                mediaReader.setQueryMetaData(false);
                 mediaReader.setCloseOnEofOnly(true); // Si ocurre un error, se forazara a cerrar la conexion
                 mediaReader.addListener(mediaListener); // Ponemos la conexion a la escucha en un listener
 
@@ -67,7 +67,7 @@ class VideoThread implements Runnable {
                 mScreen.setLocation(rndWidth, rndHeight); // Establecemos una nueva localizacion de la ventana en la pantalla al azar
 
                 try {
-                    //System.out.println("Intentando conectarse a: " + mediaReader.getUrl());
+                    System.out.println("Intentando conectarse a: " + mediaReader.getUrl());
 
                     for (int j = 0; j < 3; j++) { // Hacemos 3 intentos maximo para intentar leer paquetes
                         errPacket = mediaReader.readPacket(); // TODO: Muchas veces se queda leyendo el paquete y no pasa al siguiente paso, hace falta un timeout o algo similar.
@@ -89,7 +89,7 @@ class VideoThread implements Runnable {
                                 errPacket = mediaReader.readPacket();
 
                                 if(errPacket != null ) { // Si hay errores entonces..
-                                    System.out.println("Error: " + errPacket);
+                                    //System.out.println("Error: " + errPacket);
                                     break; // Salimos del while
                                 }
                             } catch(Exception e) {
