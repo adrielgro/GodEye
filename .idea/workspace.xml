@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e064868-bd32-4569-aea9-3672b694ea98" name="Default" comment="Se modific">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/GodEye_jar/GodEye.jar" afterPath="$PROJECT_DIR$/out/artifacts/GodEye_jar/GodEye.jar" />
       <change beforePath="$PROJECT_DIR$/out/production/GodEye/dev/adrielgro/Main.class" afterPath="$PROJECT_DIR$/out/production/GodEye/dev/adrielgro/Main.class" />
       <change beforePath="$PROJECT_DIR$/out/production/GodEye/dev/adrielgro/VideoThread$1.class" afterPath="$PROJECT_DIR$/out/production/GodEye/dev/adrielgro/VideoThread$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/GodEye/dev/adrielgro/VideoThread.class" afterPath="$PROJECT_DIR$/out/production/GodEye/dev/adrielgro/VideoThread.class" />
+=======
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
       <change beforePath="$PROJECT_DIR$/src/dev/adrielgro/VideoThread.java" afterPath="$PROJECT_DIR$/src/dev/adrielgro/VideoThread.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +20,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GodEye$Main.coverage" NAME="Main Coverage Results" MODIFIED="1520223919795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/adrielgro/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoThread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dev/adrielgro/VideoThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +67,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>geturl</find>
+      <find>System.out</find>
+      <find>rea</find>
+      <find>readPacket</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/libs/xuggle-xuggler-5.4.jar!/com/xuggle/mediatool</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,12 +114,41 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="GodEye" type="b2602c69:ProjectViewProjectNode" />
               <item name="GodEye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GodEye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GodEye" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GodEye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GodEye" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="xuggle-xuggler-5.4.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="GodEye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GodEye" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="xuggle-xuggler-5.4.jar" type="ab9368bb:PsiFileNode" />
+              <item name="xuggle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GodEye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GodEye" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="xuggle-xuggler-5.4.jar" type="ab9368bb:PsiFileNode" />
+              <item name="xuggle" type="462c0819:PsiDirectoryNode" />
+              <item name="xuggler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GodEye" type="b2602c69:ProjectViewProjectNode" />
@@ -93,9 +165,12 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
+=======
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,11 +192,15 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="dev.adrielgro.Main" />
       <option name="VM_PARAMETERS" value="" />
+<<<<<<< HEAD
       <option name="PROGRAM_PARAMETERS" value="5" />
+=======
+      <option name="PROGRAM_PARAMETERS" value="7" />
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -148,11 +227,6 @@
       <envs />
       <method />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -171,7 +245,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+    <frame x="121" y="170" width="1920" height="1053" extended-state="6" />
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -181,11 +259,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2944079" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15355521" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.146875" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -198,8 +285,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24814422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -286,20 +371,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/adrielgro/VideoThread.java">
+    <entry file="file://$PROJECT_DIR$/src/dev/adrielgro/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="846">
           <caret line="59" column="82" lean-forward="true" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#979#980#0" expanded="false" />
             <element signature="e#1007#1008#0" expanded="false" />
+=======
+        <state relative-caret-position="162">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/adrielgro/Main.java">
+    <entry file="jar://$PROJECT_DIR$/libs/xuggle-xuggler-5.4.jar!/com/xuggle/xuggler/IContainer.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding>
@@ -316,6 +409,54 @@
             <element signature="imports" expanded="false" />
             <element signature="e#979#980#0" expanded="false" />
             <element signature="e#1007#1008#0" expanded="false" />
+=======
+        <state relative-caret-position="76">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/xuggle-xuggler-5.4.jar!/com/xuggle/mediatool/IMediaCoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/xuggle-xuggler-5.4.jar!/com/xuggle/mediatool/IMediaGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/xuggle-xuggler-5.4.jar!/com/xuggle/mediatool/IMediaReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/xuggle-xuggler-5.4.jar!/com/xuggle/xuggler/IError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1797">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/adrielgro/VideoThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+>>>>>>> 3577a87d249431069396234afbd4ad181a3781d0
           </folding>
         </state>
       </provider>
