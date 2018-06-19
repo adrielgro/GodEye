@@ -67,10 +67,11 @@ class VideoThread implements Runnable {
                 mScreen.setLocation(rndWidth, rndHeight); // Establecemos una nueva localizacion de la ventana en la pantalla al azar
 
                 try {
-                    //System.out.println("Intentando conectarse a: " + mediaReader.getUrl());
+                    System.out.println("Intentando conectarse a: " + mediaReader.getUrl());
 
                     for (int j = 0; j < 3; j++) { // Hacemos 3 intentos maximo para intentar leer paquetes
                         errPacket = mediaReader.readPacket(); // TODO: Muchas veces se queda leyendo el paquete y no pasa al siguiente paso, hace falta un timeout o algo similar.
+                        System.out.println("ERRPACKET["+mediaReader.getUrl()+"]: " + errPacket.toString());
                         if(errPacket == null) { // Si no hay errores en la conexion..
                             access = true; // Tuvimos exito al conectarnos
                             break; // Salimos de este ciclo
